@@ -2,4 +2,4 @@ from django.shortcuts import render
 from django.http import HttpResponse 
 
 def home(request):
-    return HttpResponse("Bienvenue sur mon projet Django bgh uf efef frgrgef !")
+    return HttpResponse("Bienvenue sur mon  !")
