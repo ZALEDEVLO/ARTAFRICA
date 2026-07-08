@@ -1,0 +1,33 @@
+body{
+    background-color: #f4f4f4;
+    height: 900px;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #0db84f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+}
+
+main{
+    background-color: #2d40e2;
+    padding: 20px;
+    color: #333;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer{
+    background-color: #d4284d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+}
