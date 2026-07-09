@@ -1,12 +1,11 @@
 body{
-    background-color: rgb(241, 241, 241);
     height: 900px;
     padding: 0;
     margin: 0;
 }
 
 header{
-    padding: 5px;
+    padding: 20px;
     text-align: center;
     height: 100px;
 }
