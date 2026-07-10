@@ -8,6 +8,7 @@ header{
     padding: 10px;
 }
 
-.search-bar {
-  width: 250px; 
+.search-container {
+  max-width: 300px; 
 }
+
