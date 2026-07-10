@@ -9,6 +9,7 @@ header{
 }
 
 .search-container {
-  max-width: 300px; 
+        justify-content: end;
+
 }
 
