@@ -9,8 +9,12 @@ header{
 }
 
 .search-container {
-        justify-content: end;
-        max-width: 350px;
-
+  width: 100%;
+  padding: 10px 0;
 }
+
+.search-bar {
+  width: 220px; 
+}
+
 
