@@ -1,19 +1,20 @@
 body {
-    background-color: #ffffff;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
     padding: 0;
-    margin: 0;
-    padding-top: 150px; /* Ajuste selon la hauteur du header */
+    margin: 0; 
 }
 
 
+
+
+
+/* la parti enete */
+
 header {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
-    background-color: #ffffff;
-    padding: 20px;
 }
 
 .no-style {
@@ -23,11 +24,17 @@ header {
 }
 
 
+.menu-btn{
+  background-color:  #faca63;
+  color:  #000000;
+}
+
+
 .space {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 60%;
+  width: 70%;
   font-style: normal;
   font-family: sans-serif;
   color: #000000;
@@ -41,5 +48,128 @@ header {
 .search-bar {
   width: 500px; 
 }
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+/* la parti SLOGAN UNIQUEMENT */
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 480px;
+  background: #1b120c;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+}
+
+.banner-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 40px;
+  background: radial-gradient(circle at top left, #3b2615 0%, #1b120c 55%, #0c0805 100%);
+  color: #f5e3c8;
+}
+
+
+
+.banner-left .banner-text {
+  position: relative;
+  max-width: 80%;
+}
+
+.banner-left h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 18px;
+  color: #f8e7c8;
+}
+
+.banner-left p {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #e2c9a0;
+}
+
+.banner-right {
+  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.banner-right .banner-img {
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.7);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+
+@media (max-width: 900px) {
+  .banner {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .banner-right {
+    padding: 20px 0;
+  }
+
+  .banner-right .banner-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/*  la parti main */
+
+
+
+main {
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.container2 {
+  margin-top: 20px;
+}
+
+.product-card {
+  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
+  color: #f8e7c8;
+  height: 100px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
 
 
