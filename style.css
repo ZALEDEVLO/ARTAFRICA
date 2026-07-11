@@ -16,6 +16,23 @@ header {
     padding: 20px;
 }
 
+.no-style {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+.space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #000000;
+}
+
 .search-container {
   width: 100%;
   padding: 10px 0;
@@ -26,8 +43,3 @@ header {
 }
 
 
-.no-style {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
