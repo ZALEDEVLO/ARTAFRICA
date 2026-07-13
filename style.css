@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f9fa;
+    background: linear-gradient(135deg, #694025 0%, #1a120c 40%, #0c0805 100%);
     font-family: Arial, sans-serif;
     padding: 0;
     margin: 0; 
@@ -9,7 +9,7 @@ body {
 
 
 
-/* la parti enete */
+/* la parti menu de navigation */
 
 header {
     top: 0;
@@ -24,9 +24,23 @@ header {
 }
 
 
-.menu-btn{
-  background-color:  #faca63;
-  color:  #000000;
+.menu-btn {
+  background-color: #faca63;
+  color: #000000;
+  width: auto;
+  height: 30px;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-btn:hover {
+  background-color: #fdfcfa;
+  color: #faca63;
+  font-style: normal;
 }
 
 
@@ -39,6 +53,13 @@ header {
   font-family: sans-serif;
   color: #000000;
 }
+
+
+.compte{
+  color:#faca63;
+}
+
+/* la parti de recherche */
 
 .search-container {
   width: 100%;
@@ -53,19 +74,70 @@ header {
 .search-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px
 }
 
 
 /* la parti SLOGAN UNIQUEMENT */
 
+hr {
+  border-radius:20px;
+  height: 2px;
+  background-color: #e67429;
+  width: 80%;
+  margin: 20px auto;
+  height: 4px;
+}
+
+
+
+
+.big-a {
+  font-size: 120px;
+  font-weight: bold;
+  color: #d4af37; /* doré */
+  line-height: 1;
+}
+
+.spaced {
+  letter-spacing: 20px; /* très espacé */
+}
+
+.africa {
+  font-size: 40px;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+.art {
+  font-size: 30px;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+.line {
+  width: 300px;
+  height: 3px;
+  background-color: #d4af37;
+  margin: 10px auto; 
+}
+
+
+
+
+.banner-container{
+  padding-top: 30px;
+}
+
+
 .banner {
+  padding: 2% auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
-  height: 480px;
-  background: #1b120c;
-  border-radius: 10px;
+  height: 500px;
+  border: none;
+  border-radius: 0px;
   overflow: hidden;
   box-shadow: 0 25px 60px rgba(0,0,0,0.6);
 }
@@ -75,12 +147,8 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 40px;
-  background: radial-gradient(circle at top left, #3b2615 0%, #1b120c 55%, #0c0805 100%);
   color: #f5e3c8;
 }
-
-
 
 .banner-left .banner-text {
   position: relative;
@@ -105,11 +173,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px;
 }
 
 .banner-right .banner-img {
-  padding: 0px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -152,24 +218,121 @@ main {
 .container {
     margin-top: 20px;
 }
-
-.container2 {
-  margin-top: 20px;
+.carte{
+  border-radius: 10px;
+  border-color: #2b1b10;
 }
 
-.product-card {
-  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
-  color: #f8e7c8;
-  height: 100px;
-  overflow: hidden;
+
+
+.container-catalogue , .container-products {
+  margin-top: 20px;
 }
 
 img {
   width: 100%;
-  height: 200px;
+  height: 150px;
   object-fit: cover;
 }
 
 
+.catalogue-card {
+  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
+  color: #f8e7c8;
+  height: 180px;
+  overflow: hidden;
+}
+
+.catalogue-title{
+  display: flex;
+  justify-content: center;
+  color: #fdfcfa;
+}
+
+.catalogue-price{
+  display: flex;
+  justify-content: space-between;
+}
+
+.price{
+  color: #fdfcfa;
+}
+
+.valeur{
+  color:  #faca63;
+}
+
+
+.catalogue-text {
+  overflow: visible;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 1.4;
+  font-size: 15px;
+  color: #fdfcfa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.product-card {
+  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
+  color: #f8e7c8;
+  height: auto;
+  overflow: hidden;
+}
+
+.product-title{
+  display: flex;
+  justify-content: center;
+  color: #fdfcfa;
+}
+
+.product-price{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.product-text {
+  overflow: visible;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.voir-ajouter{
+  display: flex;
+  justify-content: space-between;
+}
+
+.voir{
+  background-color:  #faca63;
+  color:  #000000;
+  width: auto;
+  height: 30px;
+}
+
+.voir:hover {
+  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
+  color: #ffffff;
+  font-style: normal;
+}
+
+.ajouter{
+  background-color:  #faca63;
+  color:  #000000;
+  width: auto;
+  height: 30px;
+
+}
+
+.ajouter:hover {
+  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
+  color: #ffffff;
+  font-style: normal;
+}
 
 
