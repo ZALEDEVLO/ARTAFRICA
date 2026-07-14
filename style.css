@@ -78,50 +78,7 @@ header {
 }
 
 
-/* la parti SLOGAN UNIQUEMENT */
-
-hr {
-  border-radius:20px;
-  height: 2px;
-  background-color: #e67429;
-  width: 80%;
-  margin: 20px auto;
-  height: 4px;
-}
-
-
-
-
-.big-a {
-  font-size: 120px;
-  font-weight: bold;
-  color: #d4af37; /* doré */
-  line-height: 1;
-}
-
-.spaced {
-  letter-spacing: 20px; /* très espacé */
-}
-
-.africa {
-  font-size: 40px;
-  font-weight: bold;
-  color: #d4af37;
-}
-
-.art {
-  font-size: 30px;
-  font-weight: bold;
-  color: #d4af37;
-}
-
-.line {
-  width: 300px;
-  height: 3px;
-  background-color: #d4af37;
-  margin: 10px auto; 
-}
-
+/* la parti SLOGAN  */
 
 
 
@@ -148,6 +105,36 @@ hr {
   align-items: center;
   position: relative;
   color: #f5e3c8;
+}
+
+.big-a {
+  font-size: 140px;
+  font-weight: bold;
+  color: #d4af37; 
+  line-height: 1;
+}
+
+.spaced {
+  letter-spacing: 20px; 
+}
+
+.africa {
+  font-size: 40px;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+.art {
+  font-size: 40px;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+.line {
+  width: 300px;
+  height: 3px;
+  background-color: #d4af37;
+  margin: 10px auto; 
 }
 
 .banner-left .banner-text {
@@ -204,7 +191,6 @@ hr {
 /*  la parti main */
 
 
-
 main {
     padding: 20px;
     margin-top: 20px;
@@ -214,6 +200,7 @@ main {
 
 }
 
+/* la partie catalogue et produits */
 
 .container {
     margin-top: 20px;
@@ -227,15 +214,31 @@ main {
 
 .container-catalogue , .container-products {
   margin-top: 20px;
+
 }
+
+
+.equal-col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.equal-col .carte {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
 
 img {
   width: 100%;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
 }
 
 
+/* la partie catalogue */
 .catalogue-card {
   background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
   color: #f8e7c8;
@@ -262,7 +265,6 @@ img {
   color:  #faca63;
 }
 
-
 .catalogue-text {
   overflow: visible;
   white-space: normal;
@@ -274,6 +276,8 @@ img {
   align-items: center;
   justify-content: center;
 }
+
+/* la parti produit */
 
 
 .product-card {
@@ -301,6 +305,18 @@ img {
   word-wrap: break-word;
   line-height: 1.4;
   font-size: 16px;
+}
+
+.origine-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.flag {
+  width: 40px;
+  height: auto;
+  border-radius: 3px;
 }
 
 .voir-ajouter{
@@ -335,4 +351,5 @@ img {
   font-style: normal;
 }
 
+*/
 
