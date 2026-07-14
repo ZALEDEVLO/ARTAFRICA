@@ -1,11 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>signup</title>
-</head>
-<body>
-    <h2> le formulaire d'inscription  </h2>
-</body>
+  </head>
+  <body>
+    <div class="container signup-container">
+      <div class="signup-card">
+        <!-- Logo style ArtAfrica -->
+        <div class="signup-logo">
+          <span class="big-a">A</span>
+          <div class="logo-text">
+            <div class="africa spaced">F R I C A</div>
+            <div class="line1"></div>
+            <div class="art spaced">R T</div>
+          </div>
+        </div>
+
+        <h2 class="signup-title">INSCRIPTION</h2>
+
+        <form action="index.html" method="GET" class="signup-form">
+          <div class="form-group">
+            <label>Prénom</label>
+            <input
+              type="text"
+              class="form-control input-art"
+              placeholder="Votre prénom"
+            />
+          </div>
+
+          <div class="form-group">
+            <label>Nom</label>
+            <input
+              type="text"
+              class="form-control input-art"
+              placeholder="Votre nom"
+            />
+          </div>
+
+          <div class="form-group">
+            <label>Email</label>
+            <input
+              type="email"
+              class="form-control input-art"
+              placeholder="Votre email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label>Votre identifiant</label>
+            <input
+              type="text"
+              class="form-control input-art"
+              placeholder="Votre identifiant"
+            />
+          </div>
+
+          <div class="form-group">
+            <label>Mot de passe</label>
+            <input
+              type="password"
+              class="form-control input-art"
+              placeholder="Votre mot de passe"
+            />
+          </div>
+
+          <button type="submit" class="btn signup-btn">S'inscrire</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

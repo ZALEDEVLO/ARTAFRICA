@@ -1,20 +1,16 @@
 body {
-    background: linear-gradient(135deg, #694025 0%, #1a120c 40%, #0c0805 100%);
-    font-family: Arial, sans-serif;
-    padding: 0;
-    margin: 0; 
+  background: linear-gradient(135deg, #694025 0%, #1a120c 40%, #0c0805 100%);
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
 }
-
-
-
-
 
 /* la parti menu de navigation */
 
 header {
-    top: 0;
-    left: 0;
-    width: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .no-style {
@@ -22,7 +18,6 @@ header {
   padding-left: 0;
   margin-left: 0;
 }
-
 
 .menu-btn {
   background-color: #faca63;
@@ -43,7 +38,6 @@ header {
   font-style: normal;
 }
 
-
 .space {
   display: flex;
   justify-content: space-between;
@@ -54,9 +48,8 @@ header {
   color: #000000;
 }
 
-
-.compte{
-  color:#faca63;
+.compte {
+  color: #faca63;
 }
 
 /* la parti de recherche */
@@ -67,25 +60,20 @@ header {
 }
 
 .search-bar {
-  width: 500px; 
+  width: 500px;
 }
-
 
 .search-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
 }
-
 
 /* la parti SLOGAN  */
 
-
-
-.banner-container{
+.banner-container {
   padding-top: 30px;
 }
-
 
 .banner {
   padding: 2% auto;
@@ -96,7 +84,7 @@ header {
   border: none;
   border-radius: 0px;
   overflow: hidden;
-  box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
 }
 
 .banner-left {
@@ -110,12 +98,12 @@ header {
 .big-a {
   font-size: 140px;
   font-weight: bold;
-  color: #d4af37; 
+  color: #d4af37;
   line-height: 1;
 }
 
 .spaced {
-  letter-spacing: 20px; 
+  letter-spacing: 20px;
 }
 
 .africa {
@@ -131,10 +119,10 @@ header {
 }
 
 .line {
-  width: 300px;
+  width: 280px;
   height: 3px;
   background-color: #d4af37;
-  margin: 10px auto; 
+  margin: 10px auto;
 }
 
 .banner-left .banner-text {
@@ -166,10 +154,9 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  box-shadow: 0 18px 40px rgba(0,0,0,0.7);
-  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
-
 
 @media (max-width: 900px) {
   .banner {
@@ -187,36 +174,30 @@ header {
   }
 }
 
-
 /*  la parti main */
 
-
 main {
-    padding: 20px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* la partie catalogue et produits */
 
 .container {
-    margin-top: 20px;
+  margin-top: 20px;
 }
-.carte{
+.carte {
   border-radius: 10px;
   border-color: #2b1b10;
 }
 
-
-
-.container-catalogue , .container-products {
+.container-catalogue,
+.container-products {
   margin-top: 20px;
-
 }
-
 
 .equal-col {
   display: flex;
@@ -230,13 +211,11 @@ main {
   flex-direction: column;
 }
 
-
 img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
-
 
 /* la partie catalogue */
 .catalogue-card {
@@ -246,23 +225,23 @@ img {
   overflow: hidden;
 }
 
-.catalogue-title{
+.catalogue-title {
   display: flex;
   justify-content: center;
   color: #fdfcfa;
 }
 
-.catalogue-price{
+.catalogue-price {
   display: flex;
   justify-content: space-between;
 }
 
-.price{
+.price {
   color: #fdfcfa;
 }
 
-.valeur{
-  color:  #faca63;
+.valeur {
+  color: #faca63;
 }
 
 .catalogue-text {
@@ -279,7 +258,6 @@ img {
 
 /* la parti produit */
 
-
 .product-card {
   background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
   color: #f8e7c8;
@@ -287,17 +265,16 @@ img {
   overflow: hidden;
 }
 
-.product-title{
+.product-title {
   display: flex;
   justify-content: center;
   color: #fdfcfa;
 }
 
-.product-price{
+.product-price {
   display: flex;
   justify-content: space-between;
 }
-
 
 .product-text {
   overflow: visible;
@@ -307,11 +284,10 @@ img {
   font-size: 16px;
 }
 
-.origine-row{
+.origine-row {
   display: flex;
   justify-content: space-between;
 }
-
 
 .flag {
   width: 40px;
@@ -319,14 +295,14 @@ img {
   border-radius: 3px;
 }
 
-.voir-ajouter{
+.voir-ajouter {
   display: flex;
   justify-content: space-between;
 }
 
-.voir{
-  background-color:  #faca63;
-  color:  #000000;
+.voir {
+  background-color: #faca63;
+  color: #000000;
   width: auto;
   height: 30px;
 }
@@ -337,12 +313,11 @@ img {
   font-style: normal;
 }
 
-.ajouter{
-  background-color:  #faca63;
-  color:  #000000;
+.ajouter {
+  background-color: #faca63;
+  color: #000000;
   width: auto;
   height: 30px;
-
 }
 
 .ajouter:hover {
@@ -351,5 +326,254 @@ img {
   font-style: normal;
 }
 
-*/
+/* formulaire */
 
+/* inscription*/
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.signup-card {
+  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
+  padding: 40px;
+  border-radius: 15px;
+  width: 450px;
+  color: #f8e7c8;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.signup-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.big-a {
+  font-size: 90px;
+  font-weight: bold;
+  color: #d4af37;
+  line-height: 1;
+}
+
+.logo-text {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.spaced {
+  letter-spacing: 15px;
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.africa {
+  font-size: 30px;
+}
+
+.art {
+  font-size: 22px;
+}
+
+.line1 {
+  width: 200px;
+  height: 3px;
+  background-color: #d4af37;
+  margin: 5px auto;
+}
+
+.signup-title {
+  text-align: center;
+  color: #faca63;
+  margin-bottom: 20px;
+}
+
+.input-art {
+  background-color: #0c0805;
+  border: 1px solid #d4af37;
+  color: #fdfcfa;
+}
+
+.input-art:focus {
+  border-color: #faca63;
+  box-shadow: 0 0 5px #faca63;
+}
+
+.form-group label {
+  color: #fdfcfa;
+  margin-bottom: 5px;
+}
+
+.signup-btn {
+  width: 100%;
+  background-color: #faca63;
+  color: #000;
+  margin-top: 20px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.signup-btn:hover {
+  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
+  color: #fff;
+}
+
+/* connexsion*/
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.login-card {
+  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
+  padding: 40px;
+  border-radius: 15px;
+  width: 450px;
+  color: #f8e7c8;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.login-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.big-a {
+  font-size: 90px;
+  font-weight: bold;
+  color: #d4af37;
+  line-height: 1;
+}
+
+.logo-text {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.spaced {
+  letter-spacing: 15px;
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.africa {
+  font-size: 30px;
+}
+
+.art {
+  font-size: 22px;
+}
+
+.login-title {
+  text-align: center;
+  color: #faca63;
+  margin-bottom: 20px;
+}
+
+.input-art {
+  background-color: #0c0805;
+  border: 1px solid #d4af37;
+  color: #fdfcfa;
+}
+
+.input-art:focus {
+  border-color: #faca63;
+  box-shadow: 0 0 5px #faca63;
+}
+
+.form-group label {
+  color: #fdfcfa;
+  margin-bottom: 5px;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: #faca63;
+  color: #000;
+  margin-top: 20px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.login-btn:hover {
+  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
+  color: #fff;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 15px;
+  color: #fdfcfa;
+}
+
+.signup-link a {
+  color: #faca63;
+  font-weight: bold;
+}
+
+/* footer */
+
+/* FOOTER */
+.footer-artafrica {
+  background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
+  color: #f8e7c8;
+  padding: 40px 0 20px 0;
+  margin-top: 40px;
+}
+.footer-desc {
+  margin-top: 10px;
+  color: #fdfcfa;
+}
+
+.footer-title {
+  color: #faca63;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  color: #fdfcfa;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #faca63;
+}
+
+.footer-social a {
+  color: #faca63;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.footer-social a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #d4af37;
+  padding-top: 10px;
+  color: #fdfcfa;
+}
