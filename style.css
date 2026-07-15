@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   background: linear-gradient(135deg, #694025 0%, #1a120c 40%, #0c0805 100%);
   font-family: Arial, sans-serif;
@@ -46,10 +51,6 @@ header {
   font-style: normal;
   font-family: sans-serif;
   color: #000000;
-}
-
-.compte {
-  color: #faca63;
 }
 
 /* la parti de recherche */
@@ -189,6 +190,7 @@ main {
 .container {
   margin-top: 20px;
 }
+
 .carte {
   border-radius: 10px;
   border-color: #2b1b10;
@@ -221,7 +223,7 @@ img {
 .catalogue-card {
   background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
   color: #f8e7c8;
-  height: 180px;
+  height: 100px;
   overflow: hidden;
 }
 
@@ -531,6 +533,7 @@ img {
   padding: 40px 0 20px 0;
   margin-top: 40px;
 }
+
 .footer-desc {
   margin-top: 10px;
   color: #fdfcfa;
