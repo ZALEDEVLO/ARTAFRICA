@@ -1,12 +1,183 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>propos</title>
 </head>
+
 <body>
-    <h1> ici la page page propos</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <!-- LOGO -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/slogan-logo/logo3.png" alt="ArtAfrica Logo" style="height: 90px; width: auto" />
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- MENU -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav space mx-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">
+                                <button type="button" class="btn menu-btn">ACCUEIL</button>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="panier.html">
+                                <button type="button" class="btn menu-btn">PANIER</button>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <button type="button" class="btn menu-btn">CATALOGUE</button>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="cosmetique.html">Cosmetique</a></li>
+                                <li><a class="dropdown-item" href="accessoires.html">Accessoires</a></li>
+                                <li><a class="dropdown-item" href="decorations.html">Décorations</a></li>
+                                <li><a class="dropdown-item" href="texttile.html">Textile</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">
+                                <button type="button" class="btn menu-btn">CONTACT</button>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="propos.html">
+                                <button type="button" class="btn menu-btn">PROPOS</button>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <section class="about">
+        <div class="about-container">
+            <h1 class="about-title">À propos</h1>
+
+            <p class="about-intro">
+                Chaque objet raconte la main qui l’a façonné.
+                <strong style="color: #d4af37;">Art Africain</strong> rassemble des créations artisanales venues de tout
+                le continent —
+                sculptures, textiles, bijoux et poteries — pour les faire voyager jusqu’à votre intérieur,
+                sans jamais perdre leur âme.
+            </p>
+
+            <div class="about-block">
+                <h2 style="display: flex; justify-content: center; ">Née d’un attachement au fait main</h2>
+                <p>
+                    Les savoir‑faire artisanaux africains restent trop souvent invisibles en dehors de leur région
+                    d’origine.
+                    <strong>Art Africain</strong> est né pour changer cela.
+                    Nous travaillons directement avec des artisans indépendants et des coopératives locales,
+                    en garantissant une rémunération juste pour chaque pièce créée.
+                </p>
+            </div>
+
+            <div class="about-block">
+                <h2 style="display: flex; justify-content: center;">Nos valeurs</h2>
+
+                <div class="values">
+                    <div class="value-item">
+                        <h3>Authenticité</h3>
+                        <p>Pièces fabriquées à la main, techniques transmises de génération en génération.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <h3>Équité</h3>
+                        <p>Prix justes, sans intermédiaires qui réduisent la valeur du travail.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <h3>Transparence</h3>
+                        <p>Origine clairement indiquée : région, atelier, parfois même l’artisan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- L'ENSEMBLE DU CODE POUR LE  PIED DE PAGE -->
+    <footer>
+        <footer class="footer-artafrica" id="contact">
+            <div class="container">
+                <div class="row">
+                    <!-- Liens utiles -->
+                    <div class="col-md-4 footer-section">
+                        <h4 class="footer-title">Liens utiles</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="#catalogue">Catalogue</a></li>
+                            <li><a href="panier.html">Panier</a></li>
+                            <li><a href="propos.html">Propos</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="col-md-4 footer-section">
+                        <h4 class="footer-title">Contact</h4>
+                        <p>Email : contact@artafrica.com</p>
+                        <p>Téléphone : +221 77 000 00 00</p>
+
+                        <div class="footer-social">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="col-md-4 footer-section">
+                        <h4 class="footer-title">Newsletter</h4>
+                        <p class="newsletter-text">
+                            Abonnez-vous pour recevoir nos nouveautés artisanales et offres exclusives.
+                        </p>
+
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Votre email" required>
+                            <button type="submit" class="newsletter-btn">S’abonner</button>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2026 ArtAfrica — Tous droits réservés.</p>
+                </div>
+            </div>
+        </footer>
+    </footer>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]',
+    );
+    [...popoverTriggerList].map((el) => new bootstrap.Popover(el));
+</script>
+
 </html>

@@ -1,11 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>panier</title>
+    <link rel="stylesheet" href="panier.css">
+    <title>Votre panier</title>
 </head>
+
 <body>
-    <h2> le page du panier </h2>
+
+    <div class="cart-container">
+        <h1 class="cart-title">Votre panier (3)</h1>
+
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Produit</th>
+                    <th>Prix</th>
+                    <th>Quantité</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="product-cell">
+                            <img src="images/accessoires/bijoux2.jpg" alt="">
+                            <span><strong>Collier en perle</strong></span>
+                        </div>
+                    </td>
+                    <td>15 000 FCFA</td>
+                    <td><input type="number" value="1" min="0"></td>
+                    <td>15 000 FCFA <button class="delete-btn">🗑️</button></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="product-cell">
+                            <img src="images/cosmetique/cosmetique1.jpg" alt="">
+                            <span><strong>Masque Baoulé</strong></span>
+                        </div>
+                    </td>
+                    <td>45 000 FCFA</td>
+                    <td><input type="number" value="1" min="0"></td>
+                    <td>45 000 FCFA <button class="delete-btn">🗑️</button></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="product-cell">
+                            <img src="images/accessoires/bijoux2.jpg" alt="">
+                            <span><strong>Panier Tressé</strong></span>
+                        </div>
+                    </td>
+                    <td>20 000 FCFA</td>
+                    <td><input type="number" value="2" min="0"></td>
+                    <td>40 000 FCFA <button class="delete-btn">🗑️</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="cart-footer">
+
+            <div class="totals-box">
+                <div class="totals-row">
+                    <span>Sous-total</span>
+                    <span>100 000 FCFA</span>
+                </div>
+                <div class="totals-row">
+                    <span>Livraison</span>
+                    <span>5 000 FCFA</span>
+                </div>
+                <div class="totals-row final">
+                    <span>Total</span>
+                    <span>105 000 FCFA</span>
+                </div>
+            </div>
+
+            <div class="payment-section">
+                <div class="payment-options">
+                    <button class="payment-btn"><img
+                            src="https://i.pinimg.com/736x/42/59/b1/4259b108a2b649a2ab983439c62c79bd.jpg"><span>Wave</span></button>
+                    <button class="payment-btn"><img
+                            src="https://i.pinimg.com/736x/d4/0a/ae/d40aaed93de5fb669b845167963c6d9f.jpg"><span>Orange
+                            Money</span></button>
+                    <button class="payment-btn"><img
+                            src="https://i.pinimg.com/736x/7c/81/52/7c8152cb8959cd0155c5f8d6cc3c7cd6.jpg"><span>PayPal</span></button>
+                    <button class="payment-btn"><img
+                            src="https://i.pinimg.com/1200x/bb/7a/43/bb7a43b0bef9e268116078b6e0ef8d81.jpg"><span>Visa</span></button>
+                </div>
+            </div>
+
+            <!-- BOUTONS EN DERNIÈRE POSITION -->
+            <div class="cart-actions">
+                <a href="index.html"><button class="btn-continue">Continuer mes achats</button></a>
+                <button class="btn-checkout">Passer la commande</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const paymentButtons = document.querySelectorAll(".payment-btn");
+
+        paymentButtons.forEach(btn => {
+            btn.addEventListener("click", () => {
+
+                // Retire la sélection des autres boutons
+                paymentButtons.forEach(b => b.classList.remove("active"));
+
+                // Active le bouton cliqué
+                btn.classList.add("active");
+            });
+        });
+    </script>
+
 </body>
+
 </html>
