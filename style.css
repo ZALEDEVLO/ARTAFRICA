@@ -223,7 +223,7 @@ img {
 .catalogue-card {
   background: linear-gradient(135deg, #2b1b10 0%, #1a120c 40%, #0c0805 100%);
   color: #f8e7c8;
-  height: 100px;
+  height: 120px;
   overflow: hidden;
 }
 
